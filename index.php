@@ -10,16 +10,67 @@
     <style>
         body {
             background-image: radial-gradient(#F1FADA, #0d6efd);
+            position: relative;
+            /* Menambahkan posisi relatif ke body */
+            min-height: 100vh;
         }
 
         img {
             border: none;
             border-radius: 0 0 5px 0;
         }
+
+        .alert {
+            border-radius: 50px;
+            opacity: 0;
+            animation: slideDown 0.3s ease-out forwards, fadeIn 0.5s ease-out forwards;
+            position: absolute;
+            z-index: 99;
+            /* Menggunakan posisi absolut */
+            left: 50%;
+            /* Menengahkan alert horizontal */
+            top: -100px;
+            /* Mengatur posisi awal di atas layar */
+            /* Menetapkan jarak dari atas */
+            transform: translateX(-50%);
+            /* Menyesuaikan posisi horizontal */
+        }
+
+        @keyframes slideDown {
+            to {
+                top: 20px;
+                /* Menetapkan posisi akhir */
+            }
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <?php
+    session_start();
+
+    if (isset($_SESSION["error"])) {
+        echo '<div class="alert alert-danger text-center w-50 mx-auto text-dark" role="alert">';
+        echo '<i class="bi bi-exclamation-triangle-fill"></i> ';
+        echo 'Username atau Password salah. Silahkan coba lagi.';
+        echo '</div>';
+        unset($_SESSION["error"]);
+    }
+    if (isset($_SESSION["warninglogin"])) {
+        echo '<div class="alert alert-danger text-center w-50 mx-auto text-dark" role="alert">';
+        echo '<i class="bi bi-exclamation-triangle-fill"></i> ';
+        echo 'Maaf anda harus Login terlebih dahulu.';
+        echo '</div>';
+        unset($_SESSION["warninglogin"]);
+    }
+    ?>
+
     <section class="login d-flex align-items-center justify-content-center" style="height: 100vh;">
         <div class="card mb-3" style="max-width: 600px;">
             <div class="card-header bg-primary text-white text-center">
@@ -34,14 +85,14 @@
                                 <label for="username" class="form-label">Username</label>
                                 <div class="input-group">
                                     <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter your username" aria-label="Username" aria-describedby="basic-addon1">
+                                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter your username" aria-label="Username" aria-describedby="basic-addon1" required>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
                                 <div class="input-group">
                                     <span class="input-group-text" id="basic-addon2"><i class="bi bi-lock-fill"></i></span>
-                                    <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" aria-label="Password" aria-describedby="basic-addon2">
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" aria-label="Password" aria-describedby="basic-addon2" required>
                                 </div>
                             </div>
                             <div class="d-grid">
