@@ -18,7 +18,11 @@ if (isset($_POST["login"])) {
         $data = $result1->fetch_assoc();
         $_SESSION["username"] = $data["username"];
         $_SESSION["is_login"] = true;
-
         header("location: page/dashboard.php");
+        exit;
+    } else {
+        $_SESSION["error"] = true; //errorlogin
+        header("location: index.php");
+        exit;
     }
 }

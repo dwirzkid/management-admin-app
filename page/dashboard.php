@@ -1,7 +1,13 @@
 <?php
 session_start();
+// Redirect ke halaman login jika belum login
+if (!isset($_SESSION["is_login"])) {
+    $_SESSION["warninglogin"] = true;
+    header("location: ../index.php");
+    exit;
+}
+// logout
 if (isset($_POST['logout'])) {
-    session_unset();
     session_destroy();
     header('Location: ../index.php');
     exit();
