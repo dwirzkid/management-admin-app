@@ -50,42 +50,153 @@
                                 Sekolah
                             </a>
                         </li>
+
                         <li>
-                            <a href="./gtk.php" class="nav-link text-white">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                GTK
-                            </a>
+                            <div class="">
+                                <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    <span>GTK</span>
+                                </a>                             
+                                <ul id="auth" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                    <li class="sidebar-item">
+                                        <a href="#" class="nav-link text-white">
+                                            <span> Guru</span>
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link text-white ">
+                                            <span> Tendik</span>
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="#" class="nav-link text-white">
+                                            <span> GTK Non-Aktif</span>
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </li>
+
                         <li>
-                            <a href="./pesdik.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#pesdik" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-regular fa-face-smile"></i>
-                                Peserta Didik
+                                <span>Peserta Didik</span>
                             </a>
+                            <ul id="pesdik" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="./peserta-didik/data-siswa.php" class="nav-link text-white">
+                                        <span> Data Siswa</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
-                            <a href="./rombel.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#rombel" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-solid fa-users"></i>
-                                Rombongan Belajar
+                                <span> Rombongan Belajar</span>
                             </a>
+                            <ul id="rombel" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
-                            <a href="./nilai.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#nilai" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-solid fa-bars"></i>
-                                Nilai
+                                <span> Nilai</span>
                             </a>
+                            <ul id="nilai" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
                             <a href="./jadwal.php" class="nav-link text-white">
                                 <i class="fa-regular fa-calendar-days"></i>
                                 Jadwal
                             </a>
                         </li>
+
                         <li>
-                            <a href="./valid.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#valid" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-solid fa-check"></i>
-                                Validasi
+
+                                <span> Validasi</span>
                             </a>
+                            <ul id="valid" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
                             <a href="./tarik.php" class="nav-link text-white">
                                 <i class="fa-solid fa-arrow-down"></i>
@@ -130,69 +241,142 @@
                 </div>
             </div>
 
-            <!-- Content -->
+            <!-- User -->
             <div class="col-8">
-                <h2>Dashboard</h2>
+                <div class="container-lg">
+                    <br>
+                    <div class="text-end">
+                        <a href="#" class=" align-items-center text-white text-decoration-none dropdown-toggle text-end" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../../../img/anna.jpeg" alt="" width="32" height="32" class="rounded-circle me-2">
+                            <strong>User</strong>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+
                 <br>
                 <!-- Text on the right side -->
                 <div class="container text-center ">
                     <div class="row ">
-                        <div class="card" style="width: auto;">                            
-                                <div class="text-start " style="font-size: xx-large;">
-                                <i class="fa-solid fa-building-columns text-start ml-4" style="font-size: xx-large;"></i> 
-                                <font style="align-items: flex-end;">5</font>
-                            </div>                                                       
-                            <div style="font-size: small;"> Jumlah Ruang Kelas</div>
+                        <div class="col">
+                            <div class="card" style="width: auto">
+                                <div class="" style="font-size: xx-large;">
+                                    <i class="fa-solid fa-building-columns" style="font-size: xx-large;"> 7</i>
+                                </div>
+                                <br>
+                                <div style="font-size: medium;"> Jumlah Ruang Kelas</div>
+                            </div>
                         </div>
 
-                        <div class="card" style="width: auto;">                            
-                                <div class="text-start " style="font-size: xx-large;">
-                                <i class="fa-solid fa-graduation-cap text-start ml-4" style="font-size: xx-large;"></i> 
-                                <font style="align-items: flex-end;">7</font>
-                            </div>                                                       
-                            <div style="font-size: small;"> Jumlah Guru</div>
+                        <div class="col">
+                            <div class="card" style="width: auto">
+                                <div class="" style="font-size: xx-large;">
+                                    <i class="fa-solid fa-graduation-cap" style="font-size: xx-large;"> 7</i>
+                                </div>
+                                <br>
+                                <div style="font-size: small;"> Jumlah Guru</div>
+                            </div>
                         </div>
-                        <div class="card" style="width: auto;">                            
-                                <div class="text-start " style="font-size: xx-large;">
-                                <i class="fa-regular fa-face-smile text-start ml-4" style="font-size: xx-large;"></i> 
-                                <font style="align-items: flex-end;">98</font>
-                            </div>                                                       
-                            <div style="font-size: small;"> Jumlah Peserta Didik</div>
+
+                        <div class="col">
+                            <div class="card" style="width: auto">
+                                <div class="" style="font-size: xx-large;">
+                                    <i class="fa-regular fa-face-smile" style="font-size: xx-large;"> 98</i>
+                                </div>
+                                <br>
+                                <div style="font-size: small;"> Jumlah Peserta Didik</div>
+                            </div>
                         </div>
-                        <div class="card" style="width: auto;">                            
-                                <div class="text-start " style="font-size: xx-large;">
-                                <i class="fa-solid fa-users text-start ml-4" style="font-size: xx-large;"></i> 
-                                <font style="align-items: flex-end;">5</font>
-                            </div>                                                       
-                            <div style="font-size: small;"> Jumlah Rombel</div>
+                        <div class="col">
+                            <div class="card" style="width: auto">
+                                <div class="" style="font-size: xx-large;">
+                                    <i class="fa-solid fa-users" style="font-size: xx-large;"> 5</i>
+                                </div>
+                                <br>
+                                <div style="font-size: small;"> Jumlah Rombel</div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
                 <br>
-                <div class="card" style="width: 45rem;">
 
-                    <div class="card-body">
-                        <p class="card-text">
-                        <i class="fa-solid fa-school"> TK PEMBINA III KOTA TANGERANG SELATAN</i>
-                        <p>NIPDN : 6989917</p>
-                        <p>Bentuk Pendidikan : TK</p>
-                        <p>Status : Negeri</p>
-                        <p>Kecamatan : Kec.Serpong</p>
-                        <p>Kabupaten : Kota Tangerang Selatan</p>
-                        <p>Provinsi : Prov. Banten</p>
-                        <p>PLT Kepala Sekolah : <font style="color: orange;">ELI SUSILAWATI</font></p>
-                        <p>Operator : Ingrid Maharani Basuki</p>
-                        <p>Username : tkn.pembina3serpong@gmail.com</p>
-                        <br>
-                        <p>Implementasi Kurikulum : Merdeka</p>
-                        <p>Status BOSP : <font style="color: green;">Bersedia Menerima BOSP</font></p>
-                        <p>Bendahara BOSP : ENDAH SURYATI</p>
-                        </p>
+                <div class="container-lg">
+                    <div class="row justify-content-left"></div>
+                    <div class="card" style="width: auto; height: auto;">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <i class="fa-solid fa-school"> TK PEMBINA III KOTA TANGERANG SELATAN</i>
+                            <div class="co-md-5 ">
+                                <table>
+                                    <tr>
+                                        <br>
+                                        <td>NIPDN</td>
+                                        <td>: 69899817</td>
+                                    </tr>
+
+                                    <img class="float-end" width="300" height="280" src="../../../img/tk.jpg" alt="cover-tk">
+                                    <tr>
+                                        <td>Bentuk Pendidikan</td>
+                                        <td>: TK</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Status</td>
+                                        <td>: Negeri</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kecamatan</td>
+                                        <td>: Kec.Serpong</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kabupaten</td>
+                                        <td>: Kota Tangerang Selatan</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Provinsi</td>
+                                        <td>: Prov. Banten</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PLT Kepala Sekolah</td>
+                                        <td>: <font style="color: orange;">ELI SUSILAWATI</font>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Operator</td>
+                                        <td>: Ingrid Maharani Basuki</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Username</td>
+                                        <td>: tkn.pembina3serpong@gmail.com</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><br>Implementasi Kurikulum </td>
+                                        <td><br> : Merdeka </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+
+
+
+
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
+
+            </div>
         </div>
     </div>
 

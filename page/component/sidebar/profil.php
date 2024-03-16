@@ -51,29 +51,115 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./gtk.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-solid fa-graduation-cap"></i>
-                                GTK
+                                <span>GTK</span>
                             </a>
+                            <ul id="auth" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
-                            <a href="./pesdik.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#pesdik" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-regular fa-face-smile"></i>
-                                Peserta Didik
+                                <span>Peserta Didik</span>
                             </a>
+                            <ul id="pesdik" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
+
                         <li>
-                            <a href="./rombel.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#rombel" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-solid fa-users"></i>
-                                Rombongan Belajar
+                                <span> Rombongan Belajar</span>
                             </a>
+                            <ul id="rombel" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
-                            <a href="./nilai.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#nilai" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-solid fa-bars"></i>
-                                Nilai
+                                <span> Nilai</span>
                             </a>
+                            <ul id="nilai" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
+
                         <li>
                             <a href="./jadwal.php" class="nav-link text-white">
                                 <i class="fa-regular fa-calendar-days"></i>
@@ -81,11 +167,33 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./valid.php" class="nav-link text-white">
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#valid" aria-expanded="false" aria-controls="auth">
                                 <i class="fa-solid fa-check"></i>
-                                Validasi
+
+                                <span> Validasi</span>
                             </a>
+                            <ul id="valid" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
                             <a href="./tarik.php" class="nav-link text-white">
                                 <i class="fa-solid fa-arrow-down"></i>
@@ -118,12 +226,16 @@
                         </li>
                         <li>
                             <br>
-                            <a href="../../dashboard.php" class="nav-link text-white">
-                                <svg class="bi me-2" width="16" height="16">
-                                    <use xlink:href="#people-circle" />
-                                </svg>
-                                Keluar
-                            </a>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-danger" type="button">
+                                    <a href="../../../index.php" class="nav-link text-white">
+                                        <i class="fa-solid fa-warning"></i>
+                                        Keluar
+                                    </a>
+
+                                </button>
+
+                            </div>
                         </li>
                     </ul>
                     <div class="b-example-divider invisible"></div>
@@ -131,10 +243,101 @@
             </div>
 
             <!-- Content -->
-            <div class="col-9 ">
-                    <h2>Profil Pengguna</h2>
-                    
-                
+            <div class="col-8">
+                <br>
+                <div class="container-lg">
+                    <div class="card" style="width: auto; height: auto;">
+                        <div class="card-body">
+                            <div class="card rounded float-end" style="width: auto; height: auto;">
+                                <img class="" style="width: 18rem; height: 17rem;" src="../../../img/man-guitar.jpg" alt="...">
+                                <div class="text-end">
+                                    <br>
+                                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ubahGambar">
+                                        <i class="fa-solid fa-pen-to-square"></i> Ubah Gambar
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="ubahGambar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Gambar Diperbarui</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="mb-3">
+                                                    <label for="formFile" class="form-label">Pilih Gambar</label>
+                                                    <input class="form-control" type="file" id="formFile">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
+                                                <button type="button" class="btn btn-primary">Ya</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card" style="width: 29rem">
+                                <ul class="list-group">
+                                    <li class="list-group-item active" aria-current="true">
+                                        Profil Pengguna
+                                    </li>
+                                    <br>
+                                    <div>
+                                        Username : <font style="color: red;">*</font> tkn.pembina3serpong@gmail.com
+                                    </div>
+                                    <br>
+                                    <li class="list-group-item">
+                                        Nama : <font style="color: red;">*</font> Ingrid Maharani Basuki
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        No Hp : <font style="color: red;">*</font> 087771186776
+                                    </li>
+                                </ul>
+                                <br><br><br><br>
+
+                                <!-- Edit profil Pengguna -->
+                                <div class="text-end">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">
+                                        <i class="fa-solid fa-pen-to-square"></i> Edit
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Data Perbarui</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="name" class="form-label">Nama</label>
+                                                    <input type="text" class="form-control" id="name" placeholder="*juan">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="noHp" class="form-label">No Hp</label>
+                                                    <input type="text" class="form-control" id="noHp" placeholder="*0843">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
+                                            <button type="button" class="btn btn-primary">Ya</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
@@ -149,4 +352,4 @@
 
 </body>
 
-</html>
+</html

@@ -4,7 +4,7 @@ session_start();
 
 
 if (isset($_SESSION["is_login"])) {
-    header("location: page/dashboard.php");
+    header("location: page/component/sidebar/beranda.php");
 }
 
 if (isset($_POST["login"])) {
@@ -18,7 +18,7 @@ if (isset($_POST["login"])) {
         $data = $result1->fetch_assoc();
         $_SESSION["username"] = $data["username"];
         $_SESSION["is_login"] = true;
-        header("location: page/dashboard.php");
+        header("location: page/component/sidebar/beranda.php");
         exit;
     } else {
         $_SESSION["error"] = true; //errorlogin

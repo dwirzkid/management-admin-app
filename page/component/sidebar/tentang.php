@@ -49,29 +49,114 @@
                 </a>
             </li>
             <li>
-                <a href="./gtk.php" class="nav-link text-white">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    GTK
-                </a>
-            </li>
-            <li>
-                <a href="./pesdik.php" class="nav-link text-white">
-                    <i class="fa-regular fa-face-smile"></i>
-                    Peserta Didik
-                </a>
-            </li>
-            <li>
-                <a href="./rombel.php" class="nav-link text-white">
-                    <i class="fa-solid fa-users"></i>
-                    Rombongan Belajar
-                </a>
-            </li>
-            <li>
-                <a href="./nilai.php" class="nav-link text-white">
-                    <i class="fa-solid fa-bars"></i>
-                    Nilai
-                </a>
-            </li>
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>GTK</span>
+                            </a>
+                            <ul id="auth" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+<li>
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#pesdik" aria-expanded="false" aria-controls="auth">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span>Peserta Didik</span>
+                            </a>
+                            <ul id="pesdik" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-regular fa-face-smile"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+<li>
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#rombel" aria-expanded="false" aria-controls="auth">
+                                <i class="fa-solid fa-users"></i>
+                                <span> Rombongan Belajar</span>
+                            </a>
+                            <ul id="rombel" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-users"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+<li>
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#nilai" aria-expanded="false" aria-controls="auth">
+                                <i class="fa-solid fa-bars"></i>
+                                <span> Nilai</span>
+                            </a>
+                            <ul id="nilai" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
             <li>
                 <a href="./jadwal.php" class="nav-link text-white">
                     <i class="fa-regular fa-calendar-days"></i>
@@ -79,11 +164,33 @@
                 </a>
             </li>
             <li>
-                <a href="./valid.php" class="nav-link text-white">
-                    <i class="fa-solid fa-check"></i>
-                    Validasi
-                </a>
-            </li>
+                            <a href="#" class="sidebar-link collapsed has-dropdown btn-secondary dropdown-toggle nav-link text-white" data-bs-toggle="collapse" data-bs-target="#valid" aria-expanded="false" aria-controls="auth">
+                                <i class="fa-solid fa-check"></i>
+
+                                <span> Validasi</span>
+                            </a>
+                            <ul id="valid" class="sidebar-dropdown list-unstyled collapse text-end container-lg" data-bs-parent="#sidebar">
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> Guru</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-white ">
+                                        <span> Tendik</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="nav-link text-white">
+                                        <span> GTK Non-Aktif</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
             <li>
                 <a href="./tarik.php" class="nav-link text-white">
                     <i class="fa-solid fa-arrow-down"></i>
