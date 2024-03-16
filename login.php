@@ -18,7 +18,7 @@ if (isset($_POST["login"])) {
         $data = $result1->fetch_assoc();
         $_SESSION["username"] = $data["username"];
         $_SESSION["is_login"] = true;
-        header("location: page/component/sidebar/beranda.php");
+        header("location: page/dashboard.php");
         exit;
     } else {
         $_SESSION["error"] = true; //errorlogin
